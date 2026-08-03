@@ -1,2 +1,26 @@
-# DVLD-Driving-License-Management-System
-A C# Windows Forms Driving License Management System built with SQL Server and a 3-tier architecture for managing people, licenses, and applications.
+## 🚧 Current Project
+
+### DVLD - Driving License Management System
+
+A desktop application built using **C# Windows Forms** with a layered architecture.
+
+Features:
+- People Management
+- Data Access Layer
+- SQL Server integration
+- Object-Oriented Programming principles
+- Separation of concerns using multi-layer architecture
+
+Tech:
+- C#
+- .NET Framework
+- SQL Server
+- ADO.NET
+- Visual Studio
+-----------------------------------------------------------------------------------------------------------------------
+- ## 🔨 What I'm Working On
+
+- Building the **DVLD Driving License Management System**
+- Designing multi-layer applications using C#
+- Connecting desktop applications with SQL Server databases
+- Improving backend development skills
