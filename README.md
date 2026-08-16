@@ -24,16 +24,12 @@ It includes:
 - `People/` - Forms for managing people
 - `Users/` - Forms for managing system users
 - `Properties/` - Project properties
-- `Resources/` - Application resources
 - `Settings/` - Application settings
-- `App.config` - Application configuration
 - `Form1.cs` - Main form
 - `Form1.Designer.cs` - Main form designer code
-- `Form1.resx` - Main form resources
 - `Program.cs` - Application entry point
 - `usControlPanel.cs` - Control panel user control
 - `usControlPanel.Designer.cs` - Control panel designer code
-- `usControlPanel.resx` - Control panel resources
 
 ### 2. Business Layer
 
