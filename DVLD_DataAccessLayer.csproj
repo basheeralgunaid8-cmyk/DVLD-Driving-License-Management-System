@@ -147,15 +147,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClsApplicationTypeData.cs" />
     <Compile Include="clsCountry.cs" />
     <Compile Include="ClsPersonData.cs" />
     <Compile Include="ClsPhoneData.cs" />
+    <Compile Include="ClsUserData.cs" />
     <Compile Include="DataAccessSetting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO Project\DTO Project.csproj">
+      <Project>{90310fca-3ea2-4453-bea8-3ec47b250e98}</Project>
+      <Name>DTO Project</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\Project\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\Project\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />
