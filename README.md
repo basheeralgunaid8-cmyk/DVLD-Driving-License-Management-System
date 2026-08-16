@@ -52,41 +52,9 @@ It contains the classes and methods used to:
 ### 4. DTO Project
 
 The DTO Project contains Data Transfer Objects (DTOs) used to transfer data between the different layers of the application.
+The DTO Project is used to transfer data between the different layers.
 
-## Project Structure
-
-```text
-DVLD-Repo/
-│
-├── DTO Project/
-│
-├── Data Access Layer/
-│
-├── DVLD_BusinessLayer1/
-│
-├── Presentation Layer/
-│   ├── ApplicationsTypes/
-│   ├── People/
-│   ├── Users/
-│   ├── Properties/
-│   ├── Resources/
-│   ├── Settings/
-│   ├── App.config
-│   ├── Form1.cs
-│   ├── Form1.Designer.cs
-│   ├── Form1.resx
-│   ├── Program.cs
-│   ├── Project.csproj
-│   ├── Project.sln
-│   ├── usControlPanel.cs
-│   ├── usControlPanel.Designer.cs
-│   └── usControlPanel.resx
-│
-├── Images/
-│
-├── README.md
-└── DVLD_DataAccessLayer.csproj
-
+------------------------------------------------------------------------------------------------------------------------------------
 Architecture Flow
 Presentation Layer
         ↓
@@ -96,17 +64,15 @@ Data Access Layer
         ↓
 Database
 
-The DTO Project is used to transfer data between the different layers.
-
+---------------------------------------------------------------------------------------------------------------------------------------
 Technologies
 C#
 .NET
 Windows Forms
 SQL Server
 ADO.NET
-Visual Studio
-Git
-GitHub
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 Purpose
 
 The main goal of this project is to build a structured Driving License Management System using a layered architecture, keeping the user interface, business logic, and database operations separated.
