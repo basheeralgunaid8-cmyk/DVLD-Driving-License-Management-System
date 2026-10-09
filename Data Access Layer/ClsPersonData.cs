@@ -120,7 +120,7 @@ namespace DVLD_DataAccessLayer
 
         //Filter by National ID
         public static bool FindPersonInfoByNationalID(ref int PersonID, ref string FirstName, ref string SecondName, ref string ThirdName, ref string FourthName,
-           string NationalID, ref DateTime DateOfBirth, ref string Address, ref string PassportNo, ref string Gender,
+           string NationalID, ref DateTime DateOfBirth, ref string Address, ref string Gender,
          ref int NationalityCountryID, ref string ImagePath, ref string Email)
         {
 
@@ -149,7 +149,7 @@ namespace DVLD_DataAccessLayer
                     FourthName = (string)reader["FourthName"];
                     DateOfBirth = (DateTime)reader["DateOfBirth"];
                     Address = (string)reader["Address"];
-                    PassportNo = (string)reader["PassportNo"];
+                 
                     Gender = (string)reader["Gender"];
                     NationalityCountryID = (int)reader["NationalityCountryID"];
                     if (reader["ImagePath"] != DBNull.Value)
