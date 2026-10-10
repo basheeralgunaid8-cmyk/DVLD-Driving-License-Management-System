@@ -41,7 +41,6 @@ namespace Project.Users
             );
 
 
-
         }
         private void ucSearchPerson1_AddClicked(object sender, EventArgs e)
         {

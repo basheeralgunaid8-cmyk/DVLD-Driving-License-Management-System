@@ -307,10 +307,11 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkLabel1.Location = new System.Drawing.Point(568, 28);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(107, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(111, 17);
             this.linkLabel1.TabIndex = 86;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Edit Person Info";
@@ -480,7 +481,6 @@
             this.Controls.Add(this.label1);
             this.Name = "ucPersonCard";
             this.Size = new System.Drawing.Size(729, 200);
-      
             ((System.ComponentModel.ISupportInitialize)(this.picPerson)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();

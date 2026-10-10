@@ -19,6 +19,7 @@ namespace Project.Users
     {
          public ClsPerson _Person;
         public event EventHandler AddClicked;
+        private ComboBox cmbFilter;
         public class SearchEventArgs : EventArgs
         {
            
@@ -41,15 +42,23 @@ namespace Project.Users
 
         }
 
+        public void SetFilters(List<string> filters)
+        {
+
+            foreach (string filter in filters)
+            {
+
+                cmbFilterBy.Items.Add(filter);
+            }
+
+            if (cmbFilterBy.Items.Count > 0)
+            {
+                cmbFilterBy.SelectedIndex = 0;
+            }
+        }
         private void PersonalInfo_Load(object sender, EventArgs e)
         {
-            cmbFilterBy.Items.Add("All");
-            cmbFilterBy.Items.Add("User Name");
-            cmbFilterBy.Items.Add("PersonID");
-            cmbFilterBy.Items.Add("Is Active");
-           
-
-            cmbFilterBy.SelectedIndex = 0;
+          ///
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -83,6 +92,13 @@ namespace Project.Users
             _Add();
         }
 
-     
+        public void LoadPersonCard(ClsPerson person)
+        {
+            txtSearch.Text = person.PersonID.ToString();
+            ucPersonCard1.LoadPersonData(person);
+            
+        }
+
+
     }
 }

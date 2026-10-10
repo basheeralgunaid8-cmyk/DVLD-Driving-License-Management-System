@@ -11,7 +11,6 @@ using System.Windows.Forms;
 namespace Project.People
 {
 
-   
     public partial class ucSearchPerson : UserControl
     {
 

@@ -46,19 +46,20 @@
             this.guna2GroupBox1.Controls.Add(this.txtSearch);
             this.guna2GroupBox1.Controls.Add(this.cmbFilterBy);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.Silver;
+            this.guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(3, 3);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(738, 71);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(744, 71);
             this.guna2GroupBox1.TabIndex = 1;
             this.guna2GroupBox1.Text = "Filter by :";
-         
             // 
             // btnAdd
             // 
             this.btnAdd.AutoRoundedCorners = true;
+            this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.BorderRadius = 13;
             this.btnAdd.CheckedState.Parent = this.btnAdd;
             this.btnAdd.CustomImages.Parent = this.btnAdd;
@@ -80,6 +81,7 @@
             // btnSearch
             // 
             this.btnSearch.AutoRoundedCorners = true;
+            this.btnSearch.BackColor = System.Drawing.Color.Transparent;
             this.btnSearch.BorderRadius = 13;
             this.btnSearch.CheckedState.Parent = this.btnSearch;
             this.btnSearch.CustomImages.Parent = this.btnSearch;

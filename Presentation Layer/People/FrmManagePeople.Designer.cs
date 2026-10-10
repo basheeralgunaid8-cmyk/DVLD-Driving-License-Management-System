@@ -36,15 +36,15 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.tsmiAddNewPerson = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.sendEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.ucSearchPerson1 = new Project.People.ucSearchPerson();
+            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeople)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
@@ -118,37 +118,6 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(183, 26);
             this.toolStripMenuItem2.Text = "___________________";
             // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(183, 26);
-            this.toolStripMenuItem3.Text = "_____________________";
-            // 
-            // guna2CustomGradientPanel1
-            // 
-            this.guna2CustomGradientPanel1.BorderRadius = 30;
-            this.guna2CustomGradientPanel1.Controls.Add(this.ucSearchPerson1);
-            this.guna2CustomGradientPanel1.Controls.Add(this.label1);
-            this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.LightGray;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(794, 264);
-            this.guna2CustomGradientPanel1.TabIndex = 15;
-            // 
-            // guna2CustomGradientPanel2
-            // 
-            this.guna2CustomGradientPanel2.BorderRadius = 20;
-            this.guna2CustomGradientPanel2.Controls.Add(this.dgvPeople);
-            this.guna2CustomGradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.Silver;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(0, 264);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.ShadowDecoration.Parent = this.guna2CustomGradientPanel2;
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(794, 368);
-            this.guna2CustomGradientPanel2.TabIndex = 16;
-            // 
             // tsmiAddNewPerson
             // 
             this.tsmiAddNewPerson.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,6 +145,12 @@
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(183, 26);
+            this.toolStripMenuItem3.Text = "_____________________";
+            // 
             // sendEmailToolStripMenuItem
             // 
             this.sendEmailToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -192,6 +167,19 @@
             this.cToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
             this.cToolStripMenuItem.Text = "Phone Call";
             // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BorderRadius = 30;
+            this.guna2CustomGradientPanel1.Controls.Add(this.ucSearchPerson1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label1);
+            this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.LightGray;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(794, 264);
+            this.guna2CustomGradientPanel1.TabIndex = 15;
+            // 
             // ucSearchPerson1
             // 
             this.ucSearchPerson1.AutoScroll = true;
@@ -201,8 +189,20 @@
             this.ucSearchPerson1.Location = new System.Drawing.Point(105, 78);
             this.ucSearchPerson1.Margin = new System.Windows.Forms.Padding(4);
             this.ucSearchPerson1.Name = "ucSearchPerson1";
-            this.ucSearchPerson1.Size = new System.Drawing.Size(743, 160);
+            this.ucSearchPerson1.Size = new System.Drawing.Size(605, 160);
             this.ucSearchPerson1.TabIndex = 13;
+            // 
+            // guna2CustomGradientPanel2
+            // 
+            this.guna2CustomGradientPanel2.BorderRadius = 20;
+            this.guna2CustomGradientPanel2.Controls.Add(this.dgvPeople);
+            this.guna2CustomGradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.Silver;
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(0, 264);
+            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
+            this.guna2CustomGradientPanel2.ShadowDecoration.Parent = this.guna2CustomGradientPanel2;
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(794, 368);
+            this.guna2CustomGradientPanel2.TabIndex = 16;
             // 
             // FrmManagePeople
             // 

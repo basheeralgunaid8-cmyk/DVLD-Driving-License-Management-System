@@ -85,7 +85,16 @@ namespace Project.Users
         {
             _LoadUserData();
 
-           
+            personalInfo1.SetFilters(new List<string>()
+              {
+                    "All",
+                    "NationalID",
+                    "FirstName",
+                    "PersonID",
+                    "Phone Number"
+              });
+
+
         }
 
         private void btnSave_Click(object sender, EventArgs e)

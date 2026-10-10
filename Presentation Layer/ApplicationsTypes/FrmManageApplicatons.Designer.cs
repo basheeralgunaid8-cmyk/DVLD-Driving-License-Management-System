@@ -55,7 +55,7 @@
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(692, 54);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(850, 54);
             this.guna2GradientPanel1.TabIndex = 0;
             // 
             // label1
@@ -66,7 +66,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(145, 0);
+            this.label1.Location = new System.Drawing.Point(228, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(396, 40);
             this.label1.TabIndex = 0;
@@ -79,10 +79,10 @@
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.Gray;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 200);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 224);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(692, 204);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(850, 204);
             this.guna2GradientPanel2.TabIndex = 1;
             // 
             // dgvApplicationType
@@ -130,7 +130,7 @@
             this.dgvApplicationType.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvApplicationType.RowHeadersVisible = false;
             this.dgvApplicationType.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvApplicationType.Size = new System.Drawing.Size(692, 204);
+            this.dgvApplicationType.Size = new System.Drawing.Size(850, 204);
             this.dgvApplicationType.TabIndex = 0;
             this.dgvApplicationType.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark;
             this.dgvApplicationType.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
@@ -161,22 +161,22 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(221, 26);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editToolStripMenuItem.Image = global::Project.Properties.Resources.edit3;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.editToolStripMenuItem.Text = "Edit Application Types";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // FrmManageApplicatons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 404);
+            this.ClientSize = new System.Drawing.Size(850, 428);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
