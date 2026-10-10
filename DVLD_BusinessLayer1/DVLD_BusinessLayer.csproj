@@ -42,11 +42,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="ClsApplicationLicenseClass.cs" />
     <Compile Include="ClsApplicationType.cs" />
+    <Compile Include="ClsAppointments.cs" />
     <Compile Include="ClsCountries.cs" />
+    <Compile Include="ClsDetainedLicenseApplicationBlayer.cs" />
+    <Compile Include="ClsDriver.cs" />
     <Compile Include="clsGlobal.cs" />
+    <Compile Include="ClsInternationalLicense.cs" />
+    <Compile Include="ClsLicenseClass.cs" />
+    <Compile Include="ClsLocalLicense.cs" />
+    <Compile Include="ClsNewDrivingLicenseApplication.cs" />
     <Compile Include="ClsPerson.cs" />
     <Compile Include="ClsPhone.cs" />
+    <Compile Include="ClsScheduleTest.cs" />
+    <Compile Include="ClsTestResult.cs" />
+    <Compile Include="ClsTestType.cs" />
     <Compile Include="ClsUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
