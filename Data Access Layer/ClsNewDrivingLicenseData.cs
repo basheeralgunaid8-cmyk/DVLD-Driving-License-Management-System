@@ -570,19 +570,7 @@ namespace DVLD_DataAccessLayer1
 
         }
 
-        public static bool FindCreatedUserID(int ApplicationID,ref int UserID)
-        {
-            SqlConnection connection = new SqlConnection(DataAccessSetting.ConnectionString);
-            string query = @"SELECT *FROM User_
-                                  WHERE UserID=@UserID;";
-
-
-            SqlCommand command = new SqlCommand(query, connection);
-
-            command.Parameters.Add("@UserID", System.Data.SqlDbType.Int).Value = UserID;
-
-            return false;
-        }
+    
         public static int GetApplicationIDByLocalLicenseID(int LocalLicenseID)
         {
             int ApplicationID = -1;
